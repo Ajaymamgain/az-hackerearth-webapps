@@ -17,8 +17,8 @@ from azure.cosmosdb.table.tableservice import TableService
 from azure.cosmosdb.table.models import Entity
 from azure.cosmosdb.table import TableService
 
-key = "45374496f48b4743a09b767eb5e6c07a"
-endpoint = "https://zura-digital.cognitiveservices.azure.com/"
+key = "your key"
+endpoint = "your endpoint"
 
 url_https_regex = re.compile(r"https?://www\.?\w+\.\w+")
 url_regex = re.compile(r"ht*?://www\.?\w+\.\w+")
@@ -161,7 +161,7 @@ class spam(Resource):
                 print("Document Sentiment: {}".format(response.sentiment))
                 sentiment = response.sentiment
                 
-                the_connection_string = "DefaultEndpointsProtocol=https;AccountName=hackerearthdb;AccountKey=qcE643oYVF3wNjZBWa892wjgqZJpVGnaH9jySboAMDoAwjoh9OCo9zqIXGbOBXyLVW8fYtkhF2dNhL4io0iTag==;TableEndpoint=https://hackerearthdb.table.cosmos.azure.com:443/;"
+                the_connection_string = "your connection string"
                 table_service= TableService(endpoint_suffix="table.cosmos.azure.com",
                             connection_string=the_connection_string)
                 data = {
