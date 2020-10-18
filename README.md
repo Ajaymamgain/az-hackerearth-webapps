@@ -1,5 +1,5 @@
 ---
-page_type: 
+Competition: 
 - Microsoft Azure Champions League-
 languages:
 - python
