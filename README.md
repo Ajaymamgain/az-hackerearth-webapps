@@ -1,5 +1,7 @@
 ---
-page_type: Hackerearth
+page_type: 
+Microsoft Hackathon
+Microsoft Azure Champions League-
 languages:
 - python
 products:
