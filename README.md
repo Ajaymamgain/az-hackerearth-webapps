@@ -1,6 +1,5 @@
 ---
 page_type: 
-Microsoft Hackathon
 Microsoft Azure Champions League-
 languages:
 - python
