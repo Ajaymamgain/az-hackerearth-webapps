@@ -1,6 +1,6 @@
 ---
 page_type: 
-Microsoft Azure Champions League-
+- Microsoft Azure Champions League-
 languages:
 - python
 products:
